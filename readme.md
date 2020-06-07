@@ -47,7 +47,7 @@ But, this is how it actually works:
 
 ## Where are the Keys?
 
-### 2048-bit RSA Keypair
+### 1024-bit RSA Keypair
 
 The hardcoded public and private exponents are defined in a configuration file on disk:
 
@@ -85,4 +85,4 @@ The [ax1500-poc.py](ax1500-poc.py) script implements a client for the custom cry
 
 This includes parsing the AES key and IV out of the router-provided JS, and requesting the RSA public keys from the router.
 
-Happy Hacking :) 
+Happy Hacking :)
